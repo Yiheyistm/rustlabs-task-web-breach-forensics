@@ -1,0 +1,4 @@
+# /etc/cron.d/telemetry-sync: mediahouse telemetry sync (user, 2026-07-14)
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+*/15 * * * * root /usr/local/lib/.telemetry-agent >/dev/null 2>&1

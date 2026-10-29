@@ -1,0 +1,3 @@
+# mediahouse web root crontab placeholder (do not remove)
+# managed by puppet: host-mediahouse-web
+17 * * * * root /usr/local/sbin/mediahouse-cleanup --quiet

@@ -1,0 +1,35 @@
+Jul 12 09:10:02 mediahouse-web systemd[1]: Started Daily apt upgrade and clean activities.
+Jul 12 09:14:03 mediahouse-web sshd[19021]: pam_unix(sshd:session): session opened for user user(uid=1000) by (uid=0)
+Jul 12 09:14:04 mediahouse-web sshd[19021]: pam_env(sshd:session): deprecated reading of user's environment enabled.
+Jul 13 18:12:44 mediahouse-web systemd[1]: logrotate.service: Deactivated successfully.
+Jul 14 01:58:20 mediahouse-web systemd[1]: apt-daily.timer timer elapsed time 2days 22h 44min 16s
+Jul 14 02:01:30 mediahouse-web sshd[20211]: Failed password for invalid user admin from 192.0.2.77 port 41290 ssh2
+Jul 14 02:01:31 mediahouse-web sshd[20211]: Failed password for invalid user admin from 192.0.2.77 port 41290 ssh2
+Jul 14 02:01:32 mediahouse-web sshd[20211]: Failed password for invalid user test from 192.0.2.77 port 41294 ssh2
+Jul 14 02:01:33 mediahouse-web sshd[20211]: Failed password for invalid user admin from 192.0.2.77 port 41298 ssh2
+Jul 14 02:01:35 mediahouse-web sshd[20211]: Connection closed by invalid user admin 192.0.2.77 port 41298 [preauth]
+Jul 14 02:01:36 mediahouse-web sshd[20214]: Failed password for root from 192.0.2.77 port 41302 ssh2
+Jul 14 02:01:37 mediahouse-web sshd[20214]: Connection closed by authenticating user root 192.0.2.77 port 41302 [preauth]
+Jul 14 02:05:03 mediahouse-web sssd: be_pam_handler: sudo handler not implemented
+Jul 14 02:14:33 mediahouse-web sshd[210521]: Accepted password for user from 198.51.100.7 port 53344 ssh2
+Jul 14 02:14:33 mediahouse-web sshd[210521]: pam_unix(sshd:session): session opened for user user(uid=1000) by (uid=0)
+Jul 14 02:14:41 mediahouse-web sshd[210521]: pam_unix(sshd:session): session closed for user user
+Jul 14 02:14:44 mediahouse-web sshd[210733]: Accepted password for user from 198.51.100.7 port 53346 ssh2
+Jul 14 02:14:44 mediahouse-web sshd[210733]: pam_unix(sshd:session): session opened for user user(uid=1000) by (uid=0)
+Jul 14 02:15:01 mediahouse-web sudo:   user : TTY=pts/1 ; PWD=/home/user ; USER=root ; COMMAND=/bin/chown root /usr/local/lib/.telemetry-agent
+Jul 14 02:15:01 mediahouse-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by user(uid=1000)
+Jul 14 02:15:01 mediahouse-web sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 02:15:22 mediahouse-web sudo:   user : TTY=pts/1 ; PWD=/home/user ; USER=root ; COMMAND=/bin/systemctl enable raidsync.service
+Jul 14 02:15:22 mediahouse-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by user(uid=1000)
+Jul 14 02:15:22 mediahouse-web sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 02:15:40 mediahouse-web sudo:   user : TTY=pts/1 ; PWD=/home/user ; USER=root ; COMMAND=/bin/systemctl daemon-reload
+Jul 14 02:15:40 mediahouse-web sudo:   user : TTY=pts/1 ; PWD=/home/user ; USER=root ; COMMAND=/bin/systemctl daemon-reload
+Jul 14 02:15:40 mediahouse-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by user(uid=1000)
+Jul 14 02:15:40 mediahouse-web sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 02:16:02 mediahouse-web systemd[1]: Finished Daily apt upgrade and clean activities.
+Jul 14 02:16:04 mediahouse-web CRON[210988]: pam_env(cron:session): deprecated reading of user's environment enabled.
+Jul 14 02:30:01 mediahouse-web CRON[211102]: (root) CMD (/usr/local/lib/.telemetry-agent)
+Jul 14 02:31:02 mediahouse-web systemd[211103]: message repeated 2 times
+Jul 14 03:40:00 mediahouse-web systemd[1]: mediahouse-wp-healthcheck.service: Deactivated successfully.
+Jul 14 06:00:01 mediahouse-web CRON[219001]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 14 06:00:01 mediahouse-web CRON[219001]: pam_unix(cron:session): session closed for user root

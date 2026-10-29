@@ -1,0 +1,10 @@
+{
+  "attacker_ip": "198.51.100.7",
+  "compromised_user": "user",
+  "initial_access": "webshell_upload",
+  "webshell_path": "/var/www/html/wp-content/uploads/media-tools/dbresetcache.php",
+  "persistence_required": ["cron_beacon", "systemd_service", "ssh_authorized_key"],
+  "c2_host": "telemetry-sync.mediahouse-cdn.example",
+  "beacon_interval_minutes": 15,
+  "privesc_or_payload_path": "/usr/local/lib/.telemetry-agent"
+}

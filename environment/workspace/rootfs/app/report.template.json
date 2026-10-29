@@ -1,0 +1,10 @@
+{
+  "attacker_ip": null,
+  "compromised_user": null,
+  "initial_access": null,
+  "webshell_path": null,
+  "persistence": [],
+  "c2_host": null,
+  "beacon_interval_minutes": null,
+  "privesc_or_payload_path": null
+}
